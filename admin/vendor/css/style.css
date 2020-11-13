@@ -1,0 +1,237 @@
+
+
+
+.navbar .nav .nav-item .nav-link{
+    color:#fff;
+}
+
+.navbar .nav .nav-item .nav-link:hover{
+    color:rgb(237, 88, 88);;
+}
+
+.navbar .navbar-brand{
+    color:#fff;
+}
+
+.navbar .navbar-brand:hover{
+    color:rgb(237, 88, 88);;
+}
+
+.navbar .navbar-toggler .navbar-toggler-icon{
+    color:rgb(252, 252, 252);
+}
+
+/*the carousel photo setting are from here */
+
+
+
+
+.main-header {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    position: relative;
+}
+
+.main-header .main-banner {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: rgb(0,0,0);
+}
+
+.main-header .main-banner .banner-item {
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+@media (min-width:992px) {
+    .main-header .main-banner .banner-item {
+        height: 626px;
+    }
+}
+
+.main-header .main-banner .banner-item > .overlay {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.6);
+}
+
+.main-header .main-banner .banner-item > .overlay > .container,
+.main-header .main-banner .banner-item > .overlay > .container > .row {
+    width: 100%;
+    height: 100%;
+}
+
+.main-header .main-banner .banner-item > .overlay .content {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: flex-start;
+}
+
+@media (min-width:992px) {
+    .main-header .main-banner .banner-item .leadin {
+        padding: 50px 0 0;
+    }
+}
+
+.main-header .main-banner .banner-item .leadin > .leadin-title {
+    font-size: 45px;
+    font-weight: 700;
+    margin-top: -200px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    line-height: 1.2em;
+    margin-bottom: 0;
+    text-align: center;
+
+
+}
+
+
+
+
+
+.main-header .main-banner .banner-item .leadin > .leadin-text {
+    padding: 10px 0;
+    text-align: center;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.625em;
+}
+
+.main-header .main-banner .banner-item .leadin > .leadin-btn,
+.main-header .main-banner .banner-item .leadin > .leadin-btn:focus {
+    padding: 10px 30px;
+    text-align: center;
+    display: inline-block;
+    color: rgb(255,255,255);
+    background-color: #19b048;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    transition: all 0.7s ease;
+    cursor: pointer;
+    position: relative;
+    text-decoration: none;
+    outline: 0;
+    margin-left: 40%;
+  
+}
+
+.main-header .main-banner .banner-item .leadin > .leadin-btn:active,
+.main-header .main-banner .banner-item .leadin > .leadin-btn:hover {
+    color: #00AFEF;
+    background-color: rgb(255,255,255);
+}
+
+@media (min-width:576px){
+    .main-header .main-banner .banner-item .leadin > .leadin-title {
+        font-size: 45px;
+    }
+}
+@media (min-width:1200px){
+    .main-header .main-banner .banner-item .leadin > .leadin-title {
+        font-size: 45px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    background-color:#19b048;
+    width: 100%;
+    overflow-x: hidden;
+    padding:20px;
+    border-top:10px solid rgb(220, 98, 99);
+}
+
+.footer .container-fluid h3{
+    color:rgb(233, 236, 239);
+
+}
+
+.footer .container-fluid > ul, li>a{
+    color:rgb(233, 236, 239);
+
+
+}.footer .container-fluid p{
+    color:rgb(233, 236, 239);
+    text-align: center;
+
+
+}
+
+
+.footer .techrald{
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.register{
+    max-width:1000px;   
+    border:1px solid rgb(233, 236, 239);
+    margin:0 auto;
+    border-radius: 3px;
+}
+
+.register .cover{
+    padding:10px;
+}
+
+.register .mytit{
+    width:100%; 
+    padding:5px;
+    color:#fff;
+    background-color: #19b048;
+    border-radius: 3px;
+    border:1px solid #19b048;
+    text-align: center;
+}
+
+
+.login{
+    max-width:500px;    
+    border:1px solid rgb(233, 236, 239);
+    margin:0 auto;
+    border-radius: 3px;
+}
+
+.login .cover{
+    padding:10px;
+}
+
+.login .mytit{
+    width:100%; 
+    padding:5px;
+    color:#fff;
+    background-color: #19b048;
+    border-radius: 3px;
+    border:1px solid #19b048;
+    text-align: center;
+}
+
+
